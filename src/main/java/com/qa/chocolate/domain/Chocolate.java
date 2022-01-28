@@ -1,17 +1,17 @@
 package com.qa.chocolate.domain;
 
-public class Chocolates {
+public class Chocolate {
 
 	private String name;
 	private String brand;
 	private String type;
 	private int sugarContent;
 
-	public Chocolates() {
+	public Chocolate() {
 		super();
 	}
 
-	public Chocolates(String name, String brand, String type, int sugarContent) {
+	public Chocolate(String name, String brand, String type, int sugarContent) {
 		super();
 		this.name = name;
 		this.brand = brand;
